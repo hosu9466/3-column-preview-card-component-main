@@ -1,0 +1,35 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article {
+    font-size: 1vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 4vw;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+article.a1{
+    background-color: hsl(31, 77%, 52%);
+}
+article.a2 {
+    background-color: hsl(184, 100%, 22%);
+}
+article.a3 {
+    background-color: hsl(179, 100%, 13%);
+}
+div.head {
+    font-size: 3vw;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+img{
+    height: 3vw;
+}
